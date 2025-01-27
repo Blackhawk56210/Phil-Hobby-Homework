@@ -1,0 +1,85 @@
+body {
+    background-color: bisque;
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    width: auto;
+    height: 200px;
+    border-radius: 25px;
+}
+
+
+h1 {
+    background-color: rgb(128, 128, 0, 0.4);
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    padding-left: 0%;
+    margin: auto;
+    margin-left: 0%;
+    text-align: center;
+    height: 55px;
+    border-right: 55px;
+}
+
+h2 {
+    background-color: rgb(128, 128, 0, 0.4);
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+    padding-left: 0%;
+    text-align: center;
+    height: 55px;
+}
+
+img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 5px;
+    height: 430px;
+    width: 766px;
+}
+
+
+p {
+    margin: 0%;
+    text-indent: 3ch;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+
+
+.button:hover {
+    text-decoration: none;
+    background-color: white;
+    border-color: gray;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(114, 111, 111, 0.2), 0 6px 20px 0 rgba(104, 102, 102, 0.19);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px){
+    p {
+    width: 50%;
+} .container {
+    top: 63%;
+}
+}
+
+@media screen and (max-width: 800px) {
+    p {
+        width: 50%;
+} .container {
+        top: 63%; 
+}
+}
